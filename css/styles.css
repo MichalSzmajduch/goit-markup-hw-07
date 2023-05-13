@@ -206,6 +206,7 @@
 .container {
   max-width: 1200px;
   margin: auto;
+  padding-top: 0px;
 }
 .logo-box {
   display: flex;

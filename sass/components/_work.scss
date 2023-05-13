@@ -1,0 +1,23 @@
+.work {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+.work__list {
+  position: relative;
+  display: inline-flex;
+}
+
+.work__description {
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: $thirdTextColor;
+  justify-content: center;
+  display: flex;
+  padding: 27px 90px;
+}

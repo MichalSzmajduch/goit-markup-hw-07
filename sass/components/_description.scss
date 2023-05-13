@@ -1,0 +1,37 @@
+.description {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 94px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.description__box {
+  width: 270px;
+  margin: 0 auto;
+}
+.description__bg {
+  padding: 25px 100px 25px 100px;
+  display: block;
+  margin-bottom: 30px;
+  background-color: $teamBgColor;
+}
+.description__icon {
+  background-color: $teamBgColor;
+}
+.description__title {
+  font-size: 14px;
+  line-height: 1.17;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: $secondTextColor;
+  line-height: 1.71;
+  margin-top: 10px;
+}
