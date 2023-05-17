@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/main.min.css" rel="stylesheet" />
   </head>
   <body class="bodystyle">
     <header class="header">
@@ -29,8 +29,8 @@
       </div>
       <nav class="nav">
         <ul class="nav__list">
-          <li>
-            <a href="./index.html" class="nav__links--after">Agencja</a>
+          <li class="nav__links nav__links--after">
+            <a href="./index.html" class="nav__list__style">Agencja</a>
           </li>
           <li>
             <a href="./portfolio.html" class="nav__links">Portfolio</a>
@@ -61,81 +61,81 @@
         <div class="main__container">
           <h1 class="main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-          <button type="button" class="button" data-modal-open>
+          <button type="button" class="main__button" data-modal-open>
             Zamów usługe
           </button>
         </div>
         <div class="modal is-hidden backdrop" data-modal>
           <div class="modal">
-            <button type="button" class="modal-btn-close" data-modal-close>
+            <button type="button" class="modal__close" data-modal-close>
               X
             </button>
-            <h3 class="form-title">Zostaw swoje dane w formularzu poniżej</h3>
+            <h3 class="modal__title">Zostaw swoje dane w formularzu poniżej</h3>
 
             <form class="form">
-              <div class="form-div">
-                <label class="labeldwa form-name">
+              <div class="form__div">
+                <label class="form__label">
                   Imię
-                  <input type="text" name="text" class="inputdwa" />
-                  <svg width="12" height="12" class="svgname">
+                  <input type="text" name="text" class="form__input" />
+                  <svg width="12" height="12" class="form__svg--name">
                     <use href="./images/icons.svg#icon-Vector-3"></use>
                   </svg>
                 </label>
 
-                <label class="labeldwa form-name"
+                <label class="form__label"
                   >Telefon
 
-                  <input type="tel" name="telefon" class="inputdwa" />
-                  <svg width="13" height="13" class="svgtelefon">
+                  <input type="tel" name="telefon" class="form__input" />
+                  <svg width="13" height="13" class="form__svg--tel">
                     <use href="./images/icons.svg#icon-Vector-1-1"></use>
                   </svg>
                 </label>
 
-                <label class="labeldwa form-name">
+                <label class="form__label">
                   Email
-                  <input type="email" name="email" class="inputdwa" />
-                  <svg width="15" height="12" class="svgmail">
+                  <input type="email" name="email" class="form__input" />
+                  <svg width="15" height="12" class="form__svg--mail">
                     <use href="./images/icons.svg#icon-Vector-2-1"></use>
                   </svg>
                 </label>
 
-                <label class="input form-name">
+                <label class="form__textarea">
                   Komentarz
                   <textarea
                     name="textarea"
                     rows="7"
                     width="100%"
                     placeholder="Wprowadź text"
-                    class="label textarea-style"
+                    class="form__textarea__style"
                   ></textarea>
                 </label>
               </div>
 
-              <div class="checkbox-control">
+              <div class="checkbox__control">
                 <input
                   type="checkbox"
                   name="checkbox"
-                  value="akceptuje"
-                  class="form-checkbox"
+                  value="akccept"
+                  class="checkbox__input"
                   id="check"
                 />
-                <label class="label-checkbox" for="check">
-                  <svg width="11" height="8" class="checkbox-icon">
+                <label class="checkbox__label" for="check">
+                  <svg width="11" height="8" class="checkbox__icon">
                     <use href="./images/icons.svg#icon-Vector-4"></use>
                   </svg>
                   <svg width="16" height="15" class="">
                     <use href="./images/icons.svg#icon-Vector-5-1"></use>
                   </svg>
                 </label>
-                <span class="rules"
+                <span class="checkbox__rules"
                   >Oświadczam iż akceptuję
-                  <a href="#" class="form-links"> Regulamin </a> i
-                  <a href="#" class="form-links">
+                  <a href="#" class="checkbox__rules__links"> Regulamin </a> i
+                  <a href="#" class="checkbox__rules__links">
                     Politykę Prywatności.</a
                   ></span
                 >
               </div>
-              <button type="submit" class="form-button">Wyślij</button>
+              <button type="submit" class="form__button">Wyślij</button>
             </form>
           </div>
         </div>
@@ -231,7 +231,7 @@
           </ul>
         </div>
       </section>
-      <section class="section team-color-background">
+      <section class="section--bg">
         <div class="container">
           <h2 class="container__title">Nasz zespół</h2>
           <ul class="employe">
@@ -358,7 +358,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section--pad">
         <div class="container">
           <h2 class="container__title">Nasi klienci</h2>
           <ul class="clients">
