@@ -57,7 +57,7 @@
     padding-left: 0px;
     margin: 0;
   }
-  &__list__style {
+  &__list-style {
     text-decoration: none;
     color: $primaryColor;
   }
@@ -102,13 +102,6 @@
     color: $primaryColor;
     fill: $primaryColor;
   }
-
-  &--margin {
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   &__icon {
     margin-right: 10px;
 
@@ -137,5 +130,11 @@
       color: $primaryColor;
       fill: $primaryColor;
     }
+  }
+  &--margin {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

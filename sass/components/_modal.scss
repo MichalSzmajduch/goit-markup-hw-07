@@ -136,7 +136,7 @@
     border: none;
     outline: none;
   }
-  &__textarea__style {
+  &__textarea-style {
     position: relative;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -183,6 +183,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  justify-content: center;
 
   &__label {
     background-color: $thirdTextColor;
@@ -191,20 +192,7 @@
     height: 15px;
     margin-right: 7px;
   }
-  &__control {
-    position: relative;
-    display: inline-flex;
-    flex: 0 0 auto;
-    width: 100%;
-    height: 24px;
-    border-radius: 2px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    justify-content: center;
-  }
+
   &__input {
     position: absolute;
     width: 100%;
@@ -236,7 +224,7 @@
   &__rules {
     margin-top: -2px;
   }
-  &__rules__links {
+  &__rules-links {
     color: $primaryColor;
   }
 }
